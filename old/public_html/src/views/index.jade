@@ -1,0 +1,11 @@
+html
+    a(href='/form') go to form
+    <br>
+    a(href='/add') add
+    body
+    
+     h1 Users
+     each user in users
+      h3= user.firstname
+      h4= user.lastname
+      h5= user.email

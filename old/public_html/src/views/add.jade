@@ -1,0 +1,10 @@
+html
+    a(href='/index') go to index
+    <br>
+    a(href='/form') go to form
+    body
+        form(method="post", action="/index")
+            input(type="text", name="fname")
+            input(type="text", name="lname")
+            input(type="text", name="email")
+            input(type="submit", name="add")

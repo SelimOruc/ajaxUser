@@ -1,0 +1,16 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "Selim",
+  "contributors": [],
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
