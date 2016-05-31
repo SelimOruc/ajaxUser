@@ -1,0 +1,12 @@
+html
+    a(href='/') go to index
+    <br>
+    a(href='/add') add
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js")
+    script(src="js/costum.js")
+    body
+        form(name="search" method="post", action="/form")
+          input#zoekbalk(type="text" name="keuze")
+          input(type="submit" value="verzenden")
+        p#lijst
+        
